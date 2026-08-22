@@ -1,0 +1,14 @@
+import { cp, mkdir, rm } from "node:fs/promises";
+
+const output = new URL("../out/", import.meta.url);
+await rm(output, { recursive: true, force: true });
+await mkdir(output, { recursive: true });
+await Promise.all([
+  cp(new URL("../index.html", import.meta.url), new URL("index.html", output)),
+  cp(new URL("../styles.css", import.meta.url), new URL("styles.css", output)),
+  cp(new URL("../script.js", import.meta.url), new URL("script.js", output)),
+  mkdir(new URL("public", output), { recursive: true }).then(() =>
+    cp(new URL("../public/og.png", import.meta.url), new URL("public/og.png", output)),
+  ),
+]);
+console.log("Static GitHub Pages bundle created in out/");
