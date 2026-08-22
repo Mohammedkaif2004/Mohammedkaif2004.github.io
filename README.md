@@ -1,11 +1,19 @@
 # Mohammed Kaif Kalagond - Research Portfolio
 
-A free, static portfolio hosted on GitHub Pages.
+[![Deploy GitHub Pages](https://github.com/Mohammedkaif2004/Mohammedkaif2004.github.io/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Mohammedkaif2004/Mohammedkaif2004.github.io/actions/workflows/deploy-pages.yml)
 
-## Publishing updates
+Live site: [mohammedkaif2004.github.io](https://mohammedkaif2004.github.io/)
 
-Edit the `updates` list at the top of `script.js`, then commit and push to `main`. The included GitHub Actions workflow builds and publishes the new version automatically.
+A static, free-to-host portfolio for research, publications, service, and academic updates.
 
-## Build locally
+## How publishing works
 
-Run `npm run build` to create the deployable static files in `out/`.
+1. Make a change to `index.html`, `styles.css`, or `script.js`.
+2. Commit and push it to the `main` branch.
+3. The GitHub Actions workflow builds the static site and deploys it to GitHub Pages.
+
+The green workflow badge above confirms that deployment is working.
+
+## Local build
+
+Run `npm run build` to generate the deployable site in `out/`.
