@@ -1,4 +1,5 @@
 const updates = [
+  { date: "2026", title: "Reviewing for BMVC and ICVGIP", text: "Serving as a reviewer for BMVC 2026 and ICVGIP 2026." },
   { date: "Aug 2026", title: "Beginning B.S. thesis research at Visdom Lab", text: "Focusing on manifold-based latent representations for more stable long-horizon world-model predictions." },
   { date: "2026", title: "ICLR paper accepted", text: "Regulating Internal Evidence Flow for Robust Learning under Spurious Correlations was accepted at ICLR 2026." },
   { date: "2025", title: "Served as an ICVGIP reviewer", text: "Contributed peer review for the Indian Conference on Computer Vision, Graphics and Image Processing." },
