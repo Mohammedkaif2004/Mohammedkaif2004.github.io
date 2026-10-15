@@ -4,11 +4,11 @@
 
 Live site: [mohammedkaif2004.github.io](https://mohammedkaif2004.github.io/)
 
-A static, free-to-host portfolio for research, publications, service, and academic updates.
+A static, free-to-host portfolio for research, publications, service, and academic updates. The latest CV is served from `public/mohammedkaif_CV.pdf`.
 
 ## How publishing works
 
-1. Make a change to `index.html`, `styles.css`, or `script.js`.
+1. Make a change to `index.html`, `styles.css`, `script.js`, or replace `public/mohammedkaif_CV.pdf`.
 2. Commit and push it to the `main` branch.
 3. The GitHub Actions workflow builds the static site and deploys it to GitHub Pages.
 

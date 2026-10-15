@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mohammed Kaif Kalagond - machine learning researcher working on robust learning, representation learning, and world models." />
+    <meta name="description" content="Mohammed Kaif Kalagond - machine learning researcher at IISER Bhopal working on robust learning, fairness, representation learning, and world models." />
     <meta property="og:title" content="Mohammed Kaif Kalagond | Machine Learning Researcher" />
-    <meta property="og:description" content="Research in robust learning, representation learning, and world models." />
+    <meta property="og:description" content="Research in robust learning, fairness, representation learning, and world models. ICLR 2026 and ICVGIP 2025 author." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://mohammedkaif2004.github.io/public/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mohammed Kaif Kalagond | Machine Learning Researcher" />
-    <meta name="twitter:description" content="Research in robust learning, representation learning, and world models." />
+    <meta name="twitter:description" content="Research in robust learning, fairness, representation learning, and world models." />
     <meta name="twitter:image" content="https://mohammedkaif2004.github.io/public/og.png" />
     <title>Mohammed Kaif Kalagond | Researcher</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,11 +24,12 @@
       <a class="monogram" href="#top" aria-label="Back to top">MK<span>.</span></a>
       <nav aria-label="Primary navigation">
         <a href="#research">Research</a>
-        <a href="#writing">Writing</a>
+        <a href="#writing">Publications</a>
         <a href="#experience">Experience</a>
+        <a href="#about">About</a>
         <a href="#updates">Updates</a>
       </nav>
-      <a class="header-link" href="mailto:mohammedkaif23@iiserb.ac.in">Get in touch <span aria-hidden="true">↗</span></a>
+      <a class="header-link" href="public/mohammedkaif_CV.pdf" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↗</span></a>
     </header>
 
     <main id="main">
@@ -37,15 +38,16 @@
         <div class="hero-layout">
           <div>
             <h1 id="hero-title">Learning representations that remain reliable beyond the familiar.</h1>
-            <p class="hero-copy">I am Mohammed Kaif Kalagond, a B.S.-M.S. Data Science student at IISER Bhopal. I study robust learning, representation geometry, and world models.</p>
+            <p class="hero-copy">I am Mohammed Kaif Kalagond, a B.S. Data Science student at IISER Bhopal (CGPA 9.18/10). I study robust learning, fairness, representation geometry, and world models.</p>
             <div class="hero-actions">
               <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="public/mohammedkaif_CV.pdf" target="_blank" rel="noreferrer">Download CV <span aria-hidden="true">↗</span></a>
               <a class="text-link" href="https://www.linkedin.com/in/mohammedkaifkalagond/?skipRedirect=true" target="_blank" rel="noreferrer">View LinkedIn <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <aside class="hero-note" aria-label="Current focus">
             <p class="note-label">Currently</p>
-            <p>Joining <strong>Visdom Lab</strong> as a B.S. thesis student.</p>
+            <p>B.S. thesis student at <strong>VisDom Lab</strong>, IISER Bhopal, and research intern at <strong>Lossfunk</strong>. SPAR AI Safety Fellow, 2026.</p>
             <div class="pulse-row"><i></i> Open to research conversations</div>
           </aside>
         </div>
@@ -60,47 +62,67 @@
       <section class="section-shell research-section" id="research" aria-labelledby="research-title">
         <div class="section-heading">
           <div><p class="eyebrow"><span></span> Selected research</p><h2 id="research-title">Questions I am pursuing</h2></div>
-          <p>I work across representation learning, generative modeling, and robustness - with an emphasis on mechanisms that can be measured and tested.</p>
+          <p>I work across representation learning, robustness, and fairness - with an emphasis on mechanisms inside the model that can be measured, regulated, and tested.</p>
         </div>
         <div class="research-grid">
           <article class="feature-card feature-card-main">
             <div class="card-top"><span>01 / Thesis</span><span>2026 - present</span></div>
-            <h3>Stable long-horizon imagination in world models</h3>
-            <p>Developing manifold-based latent representations to reduce representation drift and error accumulation during recursive imagination, enabling more stable and consistent long-horizon predictions.</p>
+            <h3>Stable long-horizon prediction in world models</h3>
+            <p>Investigating manifold-based latent representations for world models, focusing on representation drift and error accumulation during recursive prediction, and how latent geometry and dynamics affect the stability of long-horizon predictions.</p>
             <div class="tag-row"><span>World models</span><span>Latent geometry</span><span>Dynamics</span></div>
           </article>
           <article class="feature-card">
-            <div class="card-top"><span>02 / Generative modeling</span></div>
-            <h3>Reliability-guided dual-representation drifting</h3>
-            <p>Investigating how complementary discriminative and generative representations can guide one-step image generation.</p>
-            <div class="tag-row"><span>Diffusion</span><span>Representation learning</span></div>
+            <div class="card-top"><span>02 / Robust learning</span><span>ICLR 2026</span></div>
+            <h3>Regulating internal alignment flows</h3>
+            <p>Co-developed Alignment-Gated Suppression, a regulariser that uses class-conditional, confidence-weighted internal alignment signals to suppress reliance on spurious features without group labels. Evaluated on Waterbirds, CelebA, BAR and COCO with under 5% training overhead.</p>
+            <div class="tag-row"><span>Spurious correlations</span><span>Worst-group robustness</span></div>
           </article>
           <article class="feature-card">
-            <div class="card-top"><span>03 / Robust learning</span></div>
-            <h3>Regulating internal evidence flow</h3>
-            <p>Studying how targeted control of internal model connections can reduce reliance on spurious correlations.</p>
-            <div class="tag-row"><span>Fairness</span><span>Distribution shift</span></div>
+            <div class="card-top"><span>03 / Fairness</span><span>2025 - present</span></div>
+            <h3>Localising and removing bias in vision models</h3>
+            <p>Studying where attribute bias lives across layers and representation subspaces, and building adversarial and representation regularisers that mitigate multiple biases while preserving accuracy - from skin-tone-fair dermatology to multi-attribute debiasing.</p>
+            <div class="tag-row"><span>Debiasing</span><span>Medical imaging</span><span>Representation analysis</span></div>
           </article>
         </div>
       </section>
 
       <section class="section-shell writing-section" id="writing" aria-labelledby="writing-title">
-        <div class="section-heading compact-heading"><div><p class="eyebrow"><span></span> Publications & projects</p><h2 id="writing-title">Selected work</h2></div></div>
+        <div class="section-heading compact-heading"><div><p class="eyebrow"><span></span> Publications & manuscripts</p><h2 id="writing-title">Selected work</h2></div></div>
         <div class="work-list">
           <article class="work-item">
             <div class="work-year">2026</div>
-            <div><p class="work-type">Conference paper · ICLR 2026</p><h3><a class="work-title-link" href="https://openreview.net/forum?id=L2L1hi0FGj" target="_blank" rel="noreferrer">Regulating Internal Evidence Flow for Robust Learning under Spurious Correlations</a></h3><p>Accepted at ICLR 2026. A study of internal alignment flow for robust learning under spurious correlations. <a class="inline-link" href="https://openreview.net/forum?id=L2L1hi0FGj" target="_blank" rel="noreferrer">Read on OpenReview ↗</a></p></div>
+            <div><p class="work-type">Conference paper · ICLR 2026 · Published</p><h3><a class="work-title-link" href="https://openreview.net/forum?id=L2L1hi0FGj" target="_blank" rel="noreferrer">Regulating Internal Alignment Flows for Robust Learning Under Spurious Correlations</a></h3><p>Rajeev Ranjan Dwivedi*, <strong>Mohammedkaif Rafiq</strong>*, Niramay M. Patel, and Vinod K. Kurmi. *Equal contribution. <a class="inline-link" href="https://openreview.net/forum?id=L2L1hi0FGj" target="_blank" rel="noreferrer">Read on OpenReview ↗</a></p></div>
             <span class="arrow" aria-hidden="true">↗</span>
           </article>
           <article class="work-item">
             <div class="work-year">2025</div>
-            <div><p class="work-type">Conference paper · ICVGIP 2025</p><h3><a class="work-title-link" href="https://dl.acm.org/doi/10.1145/3774521.3774569" target="_blank" rel="noreferrer">Equitable Dermatology: Adversarial and Spectral Techniques for Fair Skin Lesion Classification</a></h3><p>Robust and skin-tone-invariant lesion classification using adversarial debiasing and spectral regularization. <a class="inline-link" href="https://dl.acm.org/doi/10.1145/3774521.3774569" target="_blank" rel="noreferrer">Read the ACM paper ↗</a></p></div>
+            <div><p class="work-type">Conference paper · ICVGIP 2025 · Published</p><h3><a class="work-title-link" href="https://dl.acm.org/doi/10.1145/3774521.3774569" target="_blank" rel="noreferrer">Equitable Dermatology: Adversarial and Spectral Techniques for Fair Skin Lesion Classification</a></h3><p>Rajeev Ranjan Dwivedi, <strong>Mohammedkaif Rafiq</strong>, Monika Sharma, and Amit Sangroya. <a class="inline-link" href="https://dl.acm.org/doi/10.1145/3774521.3774569" target="_blank" rel="noreferrer">Read the ACM paper ↗</a></p></div>
             <span class="arrow" aria-hidden="true">↗</span>
           </article>
           <article class="work-item">
+            <div class="work-year">2026</div>
+            <div><p class="work-type">Manuscript · Submitted to Nature Aging</p><h3>Chronological-age prediction, long-term stability and prospective host relevance are separable properties of gut microbiome ageing measures</h3><p>Radhika Khatri, Adinath Dukre, Anastasia Godneva, <strong>Mohammedkaif Rafiq</strong>, Kabir Suhel, Eran Segal, and Imran Razzak.</p></div>
+            <span class="arrow" aria-hidden="true"></span>
+          </article>
+          <article class="work-item">
+            <div class="work-year">2027</div>
+            <div><p class="work-type">Manuscript · Submitted to ICLR 2027</p><h3>Bias-Enhanced Attention for Mitigating Spurious Correlations</h3><p>Under review.</p></div>
+            <span class="arrow" aria-hidden="true"></span>
+          </article>
+          <article class="work-item">
+            <div class="work-year">2027</div>
+            <div><p class="work-type">Manuscript · Submitted to ICLR 2027</p><h3>Mask-Guided Attention for Debiasing Neural Networks</h3><p>Under review.</p></div>
+            <span class="arrow" aria-hidden="true"></span>
+          </article>
+          <article class="work-item">
+            <div class="work-year">2026</div>
+            <div><p class="work-type">Manuscript · Submitted to WSDM 2026</p><h3>Bias-Free Skin Lesion Classification via Robust Representation Learning</h3><p>Under review.</p></div>
+            <span class="arrow" aria-hidden="true"></span>
+          </article>
+          <article class="work-item">
             <div class="work-year">2025</div>
-            <div><p class="work-type">Project</p><h3>Multi-Agent Medical Reasoning System Using LLaMA</h3><p>A role-specialized reasoning pipeline for structured, risk-aware medical guidance.</p></div>
-            <span class="arrow" aria-hidden="true">↗</span>
+            <div><p class="work-type">Project · Research prototype</p><h3>Multi-Agent Medical Reasoning with LLaMA</h3><p>A pipeline of seven LLaMA models assigned to domain identification, expert analysis, and response summarisation for structured medical reasoning.</p></div>
+            <span class="arrow" aria-hidden="true"></span>
           </article>
         </div>
       </section>
@@ -108,12 +130,50 @@
       <section class="section-shell experience-section" id="experience" aria-labelledby="experience-title">
         <div class="section-heading compact-heading"><div><p class="eyebrow"><span></span> Experience & service</p><h2 id="experience-title">In the lab and community</h2></div></div>
         <div class="timeline">
-          <article><div class="timeline-date">2026 - present</div><div><h3>Research Intern · Lossfunk</h3><p>Studying where bias is localized in vision representations and developing regularizers that mitigate multiple attribute biases.</p></div></article>
-          <article><div class="timeline-date">2025 - present</div><div><h3>Deep Learning Intern · Visdom Lab, IISER Bhopal</h3><p>Investigating the internal representations of vision and language models, with a focus on robustness, reasoning, and generalisation under distribution shifts.</p></div></article>
-          <article><div class="timeline-date">2025</div><div><h3>Research Intern · TCS Research</h3><p>Contributed to computer-vision model development and empirical validation; co-authored work accepted at ICVGIP 2025.</p></div></article>
+          <article><div class="timeline-date">2026 - present</div><div><h3>B.S. Thesis Student · VisDom Lab, IISER Bhopal</h3><p>Investigating manifold-based latent representations for world models, focusing on representation drift and error accumulation during recursive prediction.</p></div></article>
+          <article><div class="timeline-date">May 2026 - present</div><div><h3>Research Intern · Lossfunk</h3><p>Investigating bias localisation in vision models through mathematical and empirical analysis of layers and representation subspaces; developed a regulariser that mitigates multiple attribute biases while preserving predictive performance.</p></div></article>
+          <article><div class="timeline-date">May 2025 - present</div><div><h3>Deep Learning Intern · VisDom Lab, IISER Bhopal</h3><p>Supervised by Dr Vinod K. Kurmi. Researching internal representations of vision and language models, including robustness under distribution shift and multi-step reasoning, and designing methods that address biased representations, failure patterns, fairness, and reliability.</p></div></article>
+          <article><div class="timeline-date">Jul - Aug 2025</div><div><h3>Research Intern · TCS Research</h3><p>Contributed to computer-vision model development and empirical validation; developed adversarial debiasing and representation regularisation for skin-lesion classification across skin-tone groups, leading to the ICVGIP 2025 paper.</p></div></article>
+          <article><div class="timeline-date">2027</div><div><h3>Reviewer · ICLR 2027</h3><p>Serving as a reviewer for the International Conference on Learning Representations.</p></div></article>
           <article><div class="timeline-date">2026</div><div><h3>Reviewer · BMVC 2026</h3><p>Serving as a reviewer for the British Machine Vision Conference.</p></div></article>
           <article><div class="timeline-date">2026</div><div><h3>Reviewer · ICVGIP 2026</h3><p>Serving as a reviewer for the Indian Conference on Computer Vision, Graphics and Image Processing.</p></div></article>
-          <article><div class="timeline-date">2025</div><div><h3>Reviewer · ICVGIP 2025</h3><p>Contributed peer review for the Indian Conference on Computer Vision, Graphics and Image Processing.</p></div></article>
+        </div>
+      </section>
+
+      <section class="section-shell about-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> Background</p><h2 id="about-title">Education, awards & skills</h2></div>
+          <p>Department of Data Science and Engineering, Indian Institute of Science Education and Research Bhopal.</p>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <h3>Education</h3>
+            <ul>
+              <li><strong>B.S. in Data Science</strong><span>Indian Institute of Science Education and Research Bhopal · Aug 2023 - present</span><span>Department of Data Science and Engineering · CGPA 9.18/10</span></li>
+              <li><strong>Pre-University (Physics, Chemistry, Mathematics and Biology)</strong><span>K. H. Patil Pre-University College, Hirekerur · 2020 - 2022</span><span>Percentage: 90%</span></li>
+            </ul>
+            <h3>Relevant coursework</h3>
+            <p>Machine Learning · Artificial Intelligence · Advanced Deep Learning · Computer Vision · Natural Language Processing · Optimisation · Linear Algebra · Multivariable Calculus · Probability and Statistics</p>
+          </article>
+          <article class="about-card">
+            <h3>Awards & fellowships</h3>
+            <ul>
+              <li><strong>SPAR AI Safety Fellowship, 2026</strong><span>Selected for the SPAR fellowship focused on AI Safety and Alignment research and professional development.</span></li>
+              <li><strong>CODS 2026 Student Travel Grant</strong><span>Awarded a student travel grant to support participation in CODS 2026.</span></li>
+              <li><strong>Undergraduate Forum @ IndoML 2026</strong><span>Selected to participate in the Undergraduate Forum at IndoML 2026 based on the submitted application.</span></li>
+            </ul>
+            <h3>Workshops & activities</h3>
+            <p>3D Modeling and Cloud Data Processing Workshop, IISER Bhopal (2024) · Model Solvay Conference, IISER Bhopal (2025)</p>
+          </article>
+          <article class="about-card">
+            <h3>Technical skills</h3>
+            <ul>
+              <li><strong>Programming and tools</strong><span>Python, C, C++, PyTorch, TensorFlow, scikit-learn, NumPy, Git</span></li>
+              <li><strong>Methods</strong><span>Representation learning, self-supervised learning, CNNs, transformers, foundation models, optimisation, generative modelling</span></li>
+              <li><strong>Research practice</strong><span>Experimental design, ablation studies, representation analysis, adversarial training, fairness evaluation, distribution-shift analysis</span></li>
+            </ul>
+            <div class="tag-row"><span>PyTorch</span><span>Transformers</span><span>Fairness</span><span>Robustness</span><span>World models</span></div>
+          </article>
         </div>
       </section>
 
@@ -131,7 +191,7 @@
 
     <footer class="site-footer">
       <p>© <span id="year"></span> Mohammed Kaif Kalagond</p>
-      <div><a href="https://github.com/Mohammedkaif2004" target="_blank" rel="noreferrer">GitHub profile</a><a href="https://github.com/Mohammedkaif2004/Mohammedkaif2004.github.io" target="_blank" rel="noreferrer">Portfolio source</a><a href="https://www.linkedin.com/in/mohammedkaifkalagond/?skipRedirect=true" target="_blank" rel="noreferrer">LinkedIn</a></div>
+      <div><a href="https://github.com/Mohammedkaif2004" target="_blank" rel="noreferrer">GitHub profile</a><a href="https://github.com/Mohammedkaif2004/Mohammedkaif2004.github.io" target="_blank" rel="noreferrer">Portfolio source</a><a href="https://www.linkedin.com/in/mohammedkaifkalagond/?skipRedirect=true" target="_blank" rel="noreferrer">LinkedIn</a><a href="public/mohammedkaif_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a></div>
       <p>Built as an evolving research notebook.</p>
     </footer>
     <script src="script.js"></script>
