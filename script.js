@@ -1,4 +1,5 @@
 const updates = [
+  { date: "Dec 2026", title: "Flood-JEPA accepted for oral presentation at CODS 2026", text: "Flood-JEPA: Dense Joint-Embedding Prediction for Multispectral Flood Mapping will be presented as an oral talk at CODS 2026, Gandhinagar (Dec 13-16)." },
   { date: "2027", title: "Reviewing for ICLR 2027", text: "Serving as a reviewer for the International Conference on Learning Representations." },
   { date: "2026", title: "Selected for the SPAR AI Safety Fellowship", text: "Joining the SPAR fellowship focused on AI Safety and Alignment research and professional development." },
   { date: "2026", title: "Beginning B.S. thesis research at VisDom Lab", text: "Focusing on manifold-based latent representations for more stable long-horizon world-model predictions." },

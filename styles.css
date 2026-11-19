@@ -60,8 +60,8 @@ nav a:hover, .header-link:hover { color: var(--cyan); }
 .section-heading { display: grid; grid-template-columns: 1fr .55fr; gap: 3rem; align-items: end; margin-bottom: 3.2rem; }
 .section-heading h2, .updates h2, .contact h2 { margin: 0; font: 500 clamp(2.35rem, 4.6vw, 4.6rem)/1 "Playfair Display", serif; letter-spacing: -.05em; }
 .section-heading > p, .updates-intro > p:not(.eyebrow) { margin: 0; color: var(--muted); font-size: .95rem; }
-.research-grid { display: grid; grid-template-columns: 1.2fr .8fr .8fr; gap: 1px; overflow: hidden; border: 1px solid var(--line); background: var(--line); }
-.feature-card { min-height: 25rem; display: flex; flex-direction: column; padding: 1.45rem; background: var(--surface-raised); transition: background .2s ease, transform .2s ease; }
+.research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; overflow: hidden; border: 1px solid var(--line); background: var(--line); }
+.feature-card { min-height: 21rem; display: flex; flex-direction: column; padding: 1.45rem; background: var(--surface-raised); transition: background .2s ease, transform .2s ease; }
 .feature-card:hover { z-index: 1; background: #192333; transform: translateY(-4px); }
 .feature-card-main { background: linear-gradient(145deg, #172735, #0f141e 62%); }
 .card-top { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font: .62rem "DM Mono", monospace; letter-spacing: .04em; text-transform: uppercase; }
